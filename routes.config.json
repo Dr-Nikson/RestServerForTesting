@@ -1,0 +1,84 @@
+[
+    {
+        "url": "login",
+        "method": "GET",
+        "status": "200",
+        "delay": "150",
+        "response": "json/login.json"
+    },
+    {
+        "url": "logout",
+        "method": "GET",
+        "status": "200",
+        "delay": "50"
+    },
+    {
+        "url": "images",
+        "method": "GET",
+        "params": {
+            "GET": {
+                "q": {
+                    "isset": true
+                }
+            }
+        },
+        "status": "200",
+        "delay": "1200",
+        "response": "json/imagesSearch.json"
+    },
+    {
+        "url": "images",
+        "method": "GET",
+        "params": {
+            "GET": {
+                "offset": {
+                    "equal": "0"
+                }
+            }
+        },
+        "status": "200",
+        "delay": "1200",
+        "response": "json/images0.json"
+    },
+    {
+        "url": "images",
+        "method": "GET",
+        "params": {
+            "GET": {
+                "offset": {
+                    "equal": "10"
+                }
+            }
+        },
+        "status": "200",
+        "delay": "1200",
+        "response": "json/images1.json"
+    },
+    {
+        "url": "images",
+        "method": "GET",
+        "params": {
+            "GET": {
+                "offset": {
+                    "equal": "20"
+                }
+            }
+        },
+        "status": "200",
+        "delay": "1200",
+        "response": "json/images2.json"
+    },
+    {
+        "url": "images",
+        "method": "GET",
+        "status": "200",
+        "delay": "200",
+        "response": "json/imagesAll.json"
+    },
+    {
+        "url": "images/{id}",
+        "method": "DELETE",
+        "status": "200",
+        "delay": "100"
+    }
+]

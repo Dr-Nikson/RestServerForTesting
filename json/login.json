@@ -1,0 +1,8 @@
+{
+    "email": "nik@mail.com",
+    "pass": "123",
+    "role": {
+        "bitMask": 4,
+        "title": "admin"
+    }
+}
