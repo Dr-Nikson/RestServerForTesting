@@ -77,6 +77,13 @@
     },
     {
         "url": "images/{id}",
+        "method": "GET",
+        "status": "200",
+        "delay": "100",
+        "response": "json/imagesOne.json"
+    },
+    {
+        "url": "images/{id}",
         "method": "DELETE",
         "status": "200",
         "delay": "100"

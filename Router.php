@@ -74,7 +74,7 @@ class Router
 
     protected function isMethodMatches($method)
     {
-        return (bool) strtoupper($method) == $_SERVER['REQUEST_METHOD'];
+        return (bool) (strtoupper($method) == $_SERVER['REQUEST_METHOD']);
     }
 
 
