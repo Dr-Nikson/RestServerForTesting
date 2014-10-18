@@ -19,6 +19,7 @@ class Route
      *
      */
     const regexp_id = '[0-9]+';
+    const regexp_str = '[0-9A-z]+';
 
     protected $urlReg;
 
@@ -110,14 +111,12 @@ class Route
     protected function processUrlReg()
     {
         //$url = preg_quote($url);
-        $url = str_replace('/','\/',$this->url);
+        $url = str_replace('/', '\/', $this->url);
 
-        if(strpos($url,'{id}') !== false)
-        {
-            $url = str_replace('{id}',self::regexp_id,$url);
-        }
+        $url = str_replace('{id}', self::regexp_id, $url);
+        $url = str_replace('{str}', self::regexp_str, $url);
 
-        $this->urlReg =  $this->addRegexpSymbols($url);
+        $this->urlReg = $this->addRegexpSymbols($url);
     }
 
 
