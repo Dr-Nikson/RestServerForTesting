@@ -1,7 +1,17 @@
 <?php
 
+use mods\GetRandomFromArrayMode;
+use mods\RandomizeFieldMode;
+
 require_once 'ClientException.php';
+require_once 'RouteInterface.php';
 require_once 'Router.php';
+require_once 'ModdedRoute.php';
+require_once 'ModEngine.php';
+require_once 'mods/Mode.php';
+require_once 'mods/GetRandomFromArrayMode.php';
+require_once 'mods/RandomizeFieldMode.php';
+
 
 try
 {
@@ -13,7 +23,10 @@ try
     $routesData = json_decode(file_get_contents('routes.config.json'));
     $url = rtrim($_GET['customUrl'],'/');
     $router = new Router($routesData);
-    process($router->getMatchingRoute($url));
+    $modEngine = new ModEngine(array( new GetRandomFromArrayMode(), new RandomizeFieldMode() ));
+    $route = $router->getMatchingRoute($url);
+    $route = $modEngine->modernize($route);
+    process($route);
 }
 catch (ClientException $ce)
 {
@@ -29,14 +42,15 @@ catch (Exception $e)
 }
 
 
-function process(Route $route)
+function process(RouteInterface $route)
 {
     //if(isset($route->getDelay()))
     usleep($route->getDelay()*1000);
 
     $responseBody = '';
-    if($route->getResponse() !== null)
-        $responseBody = file_get_contents($route->getResponse());
+    if(($responseBody = $route->getResponse()) === null)
+        $responseBody = '';
+    //$responseBody = file_get_contents($route->getResponse());
 
     $responseStatus = $route->getStatus();
 

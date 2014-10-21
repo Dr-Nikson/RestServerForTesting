@@ -68,6 +68,14 @@ class Router
             }
         }
 
+        if(isset($params->FILES))
+        {
+            foreach ($params->FILES as $paramName => $paramValue)
+            {
+                $flag = $flag && $this->checkParam($paramName,$paramValue,$_FILES);
+            }
+        }
+
         return $flag;
     }
 

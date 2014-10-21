@@ -6,7 +6,9 @@
  * Time: 17:06 
  */
 
-class Route
+require_once 'RouteInterface.php';
+
+class Route implements RouteInterface
 {
     protected $url;
     protected $method;
@@ -14,6 +16,7 @@ class Route
     protected $delay = 50;
     protected $response =  null;
     protected $params = null;
+    protected $mods = array();
 
     /**
      *
@@ -44,6 +47,9 @@ class Route
 
         if(isset($jsonRouteData->params))
             $this->params = $jsonRouteData->params;
+
+        if(isset($jsonRouteData->mods))
+            $this->mods = $jsonRouteData->mods;
 
         $this->processUrlReg();
     }
@@ -85,7 +91,7 @@ class Route
      */
     public function getResponse()
     {
-        return $this->response;
+        return $this->response ? file_get_contents($this->response) : null;
     }
 
     /**
@@ -104,6 +110,10 @@ class Route
         return $this->url;
     }
 
+    public function getMods()
+    {
+        return $this->mods;
+    }
 
     /**
      * @return string

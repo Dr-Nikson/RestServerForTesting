@@ -76,6 +76,27 @@
         "response": "json/imagesAll.json"
     },
     {
+        "url": "images",
+        "method": "POST",
+        "params": {
+            "FILES": {
+                "file": {
+                    "isset": true
+                }
+            }
+        },
+        "mods": {
+            "RandomizeFieldMode": {
+                "min": 1,
+                "max": 30000,
+                "field": "id"
+            }
+        },
+        "status": "200",
+        "delay": "300",
+        "response": "json/imagesOne.json"
+    },
+    {
         "url": "images/{id}",
         "method": "GET",
         "status": "200",
