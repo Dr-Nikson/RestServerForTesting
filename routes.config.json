@@ -114,7 +114,8 @@
         "url": "images/{id}",
         "method": "DELETE",
         "status": "200",
-        "delay": "100"
+        "delay": "100",
+        "response": "json/imagesDeleted.json"
     },
     {
         "url": "images/{id}/crop/{str}",
@@ -122,5 +123,12 @@
         "status": "200",
         "delay": "1000",
         "response": "json/imagesOne.json"
+    },
+    {
+        "url": "categories",
+        "method": "GET",
+        "status": "200",
+        "delay": "1000",
+        "response": "json/categories/all.json"
     }
 ]
