@@ -22,6 +22,7 @@ class Route implements RouteInterface
      *
      */
     const regexp_id = '[0-9]+';
+    const regexp_hex = '[0-9A-f]+';
     const regexp_str = '[0-9A-z]+';
 
     protected $urlReg;
@@ -124,6 +125,7 @@ class Route implements RouteInterface
         $url = str_replace('/', '\/', $this->url);
 
         $url = str_replace('{id}', self::regexp_id, $url);
+        $url = str_replace('{hex}', self::regexp_hex, $url);
         $url = str_replace('{str}', self::regexp_str, $url);
 
         $this->urlReg = $this->addRegexpSymbols($url);
