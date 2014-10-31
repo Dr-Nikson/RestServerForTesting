@@ -20,3 +20,27 @@ var imagesAll = {
         }
     ]
 };
+
+
+var categories = [
+    '{{repeat(5, 5)}}',
+    {
+        id: '{{objectId()}}',
+        name: '{{lorem(4, "words")}}',
+        children: [
+            '{{repeat(1, 5)}}',
+            {
+                id: '{{objectId()}}',
+                name: '{{lorem(4, "words")}}',
+                children: [
+                    '{{repeat(1, 5)}}',
+                    {
+                        id: '{{objectId()}}',
+                        name: '{{lorem(4, "words")}}',
+                        children: []
+                    }
+                ]
+            }
+        ]
+    }
+];

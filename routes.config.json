@@ -169,5 +169,12 @@
         "method": "DELETE",
         "status": "200",
         "delay": "700"
+    },
+    {
+        "url": "products",
+        "method": "GET",
+        "status": "200",
+        "delay": "1400",
+        "response": "json/products/all.json"
     }
 ]

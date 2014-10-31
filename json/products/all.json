@@ -1,0 +1,295 @@
+{
+    "offset": "0",
+    "count": {
+        "total": "20",
+        "current": "15",
+        "remaining": "5"
+    },
+    "results": [
+        {
+            "category": {
+                "children": [],
+                "name": "id fugiat magna cupidatat",
+                "id": "544fb4632dedf7571409074b"
+            },
+            "image": {
+                "alt": "laboris laborum enim excepteur",
+                "thumb": "http://5to5admin:8888/img/works/img1.jpg",
+                "url": "http://5to5admin:8888/img/works/img1.jpg",
+                "id": "5453beee795a7a717d658a17"
+            },
+            "status": "На витрине",
+            "createDate": "Wed Jan 22 2014 07:19:46 GMT+0000 (UTC)",
+            "oldPrice": 90352,
+            "price": 56470,
+            "name": "sunt nulla consectetur voluptate",
+            "id": "5453beee59a64f6e3af4a951"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "ea cupidatat nisi ipsum",
+                "id": "544fb4632c25f7ceeaf609a5"
+            },
+            "image": {
+                "alt": "ut non veniam sint",
+                "thumb": "http://5to5admin:8888/img/works/img5.jpg",
+                "url": "http://5to5admin:8888/img/works/img5.jpg",
+                "id": "5453beee0903e80a27ccb0f7"
+            },
+            "status": "На витрине",
+            "createDate": "Fri Nov 10 2006 14:40:14 GMT+0000 (UTC)",
+            "oldPrice": 117000,
+            "price": 73125,
+            "name": "mollit sunt anim duis fugiat",
+            "id": "5453beee7cccf462a99c1581"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "in dolore elit reprehenderit",
+                "id": "544fb46378ae0cb9bbffbf58"
+            },
+            "image": {
+                "alt": "commodo aliqua ex ex",
+                "thumb": "http://5to5admin:8888/img/works/img6.jpg",
+                "url": "http://5to5admin:8888/img/works/img6.jpg",
+                "id": "5453beee580d759d4da261db"
+            },
+            "status": "На витрине",
+            "createDate": "Sat Nov 30 2002 15:30:38 GMT+0000 (UTC)",
+            "oldPrice": 101763,
+            "price": 56535,
+            "name": "elit magna fugiat",
+            "id": "5453beeed1a0224404a43877"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "mollit esse amet sit",
+                "id": "544fb463da9f1bdc158aff79"
+            },
+            "image": {
+                "alt": "nulla sint nulla occaecat",
+                "thumb": "http://5to5admin:8888/img/works/img6.jpg",
+                "url": "http://5to5admin:8888/img/works/img6.jpg",
+                "id": "5453beee6a23ccc52760afc1"
+            },
+            "status": "На витрине",
+            "createDate": "Tue Feb 07 2006 04:08:54 GMT+0000 (UTC)",
+            "oldPrice": 121056,
+            "price": 63714,
+            "name": "sit quis esse incididunt exercitation",
+            "id": "5453beee5b7c395f31bb52dc"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "eiusmod aliquip ut velit",
+                "id": "544fb463af5218f00d5cd657"
+            },
+            "image": {
+                "alt": "ut occaecat ipsum aliqua",
+                "thumb": "http://5to5admin:8888/img/works/img7.jpg",
+                "url": "http://5to5admin:8888/img/works/img7.jpg",
+                "id": "5453beeee24f39ccbfb5ee4b"
+            },
+            "status": "На витрине",
+            "createDate": "Mon Jun 27 2005 08:09:38 GMT+0000 (UTC)",
+            "oldPrice": 10541,
+            "price": 9583,
+            "name": "sit sunt ea",
+            "id": "5453beee337a616af7405f7d"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "magna minim pariatur consequat",
+                "id": "544fb4632dedf7571409074b"
+            },
+            "image": {
+                "alt": "ex tempor ea exercitation",
+                "thumb": "http://5to5admin:8888/img/works/img6.jpg",
+                "url": "http://5to5admin:8888/img/works/img6.jpg",
+                "id": "5453beee9908839b1675ae41"
+            },
+            "status": "На витрине",
+            "createDate": "Wed Feb 15 2012 17:35:00 GMT+0000 (UTC)",
+            "oldPrice": 399,
+            "price": 333,
+            "name": "Lorem est aliqua sit dolor",
+            "id": "5453beeeebb6a0fd3c0df7a1"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "anim fugiat ea consectetur",
+                "id": "544fb46378ae0cb9bbffbf58"
+            },
+            "image": {
+                "alt": "velit ad anim anim",
+                "thumb": "http://5to5admin:8888/img/works/img1.jpg",
+                "url": "http://5to5admin:8888/img/works/img1.jpg",
+                "id": "5453beee9aafbc1429ed7dbc"
+            },
+            "status": "Скрыт",
+            "createDate": "Thu Oct 15 2009 10:24:30 GMT+0000 (UTC)",
+            "oldPrice": 47367,
+            "price": 24930,
+            "name": "nisi esse sit duis",
+            "id": "5453beee18ec6ab998bb2d0c"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "et aliqua id magna",
+                "id": "544fb463af5218f00d5cd657"
+            },
+            "image": {
+                "alt": "sint incididunt nisi laboris",
+                "thumb": "http://5to5admin:8888/img/works/img7.jpg",
+                "url": "http://5to5admin:8888/img/works/img7.jpg",
+                "id": "5453beee9810ef79bdd88b67"
+            },
+            "status": "Удален",
+            "createDate": "Mon Aug 19 2002 13:23:59 GMT+0000 (UTC)",
+            "oldPrice": 107031,
+            "price": 71354,
+            "name": "voluptate qui laboris labore ad do",
+            "id": "5453beeeeaf4b70031c58150"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "aliquip sunt nulla cillum",
+                "id": "544fb4631283581be9d063e6"
+            },
+            "image": {
+                "alt": "ea irure ullamco eu",
+                "thumb": "http://5to5admin:8888/img/works/img6.jpg",
+                "url": "http://5to5admin:8888/img/works/img6.jpg",
+                "id": "5453beee1677c698d3bec51c"
+            },
+            "status": "Удален",
+            "createDate": "Wed Jul 21 2010 14:19:42 GMT+0000 (UTC)",
+            "oldPrice": 95620,
+            "price": 47810,
+            "name": "pariatur quis pariatur consequat reprehenderit ut",
+            "id": "5453beee916f546b13c1c706"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "sint dolore sit ex",
+                "id": "544fb4632dedf7571409074b"
+            },
+            "image": {
+                "alt": "non adipisicing pariatur laborum",
+                "thumb": "http://5to5admin:8888/img/works/img6.jpg",
+                "url": "http://5to5admin:8888/img/works/img6.jpg",
+                "id": "5453beee62b767728586d1bd"
+            },
+            "status": "На витрине",
+            "createDate": "Fri Feb 25 2011 09:33:07 GMT+0000 (UTC)",
+            "oldPrice": 122875,
+            "price": 76797,
+            "name": "elit dolor laboris enim",
+            "id": "5453beee970c2ab6b57ed2bd"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "anim laboris sunt nisi",
+                "id": "544fb46378ae0cb9bbffbf58"
+            },
+            "image": {
+                "alt": "sunt consequat nisi nisi",
+                "thumb": "http://5to5admin:8888/img/works/img3.jpg",
+                "url": "http://5to5admin:8888/img/works/img3.jpg",
+                "id": "5453beee555023d1075d3ef6"
+            },
+            "status": "Скрыт",
+            "createDate": "Mon Oct 04 2010 02:58:56 GMT+0000 (UTC)",
+            "oldPrice": 28254,
+            "price": 20182,
+            "name": "qui eu commodo",
+            "id": "5453beee67df2abd726ff98c"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "aliquip aliqua enim et",
+                "id": "544fb4631283581be9d063e6"
+            },
+            "image": {
+                "alt": "labore dolor consectetur velit",
+                "thumb": "http://5to5admin:8888/img/works/img3.jpg",
+                "url": "http://5to5admin:8888/img/works/img3.jpg",
+                "id": "5453beee0b79b2ba6c651e1c"
+            },
+            "status": "На витрине",
+            "createDate": "Sat Sep 08 2001 21:56:08 GMT+0000 (UTC)",
+            "oldPrice": 118133,
+            "price": 84381,
+            "name": "cupidatat labore mollit ad",
+            "id": "5453beeeb9b698d9d2987738"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "aliqua laboris irure magna",
+                "id": "544fb463da9f1bdc158aff79"
+            },
+            "image": {
+                "alt": "dolore cillum tempor nulla",
+                "thumb": "http://5to5admin:8888/img/works/img3.jpg",
+                "url": "http://5to5admin:8888/img/works/img3.jpg",
+                "id": "5453beeec3e49cffcf12ad26"
+            },
+            "status": "Скрыт",
+            "createDate": "Sun Sep 03 2006 19:42:51 GMT+0000 (UTC)",
+            "oldPrice": 18214,
+            "price": 16559,
+            "name": "quis commodo exercitation",
+            "id": "5453beeecf013a3bcf9358ed"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "commodo ea et et",
+                "id": "544fb463da9f1bdc158aff79"
+            },
+            "image": {
+                "alt": "amet aliqua ipsum excepteur",
+                "thumb": "http://5to5admin:8888/img/works/img3.jpg",
+                "url": "http://5to5admin:8888/img/works/img3.jpg",
+                "id": "5453beee64480c3742c6c72f"
+            },
+            "status": "Скрыт",
+            "createDate": "Sat Dec 31 2011 01:36:49 GMT+0000 (UTC)",
+            "oldPrice": 124264,
+            "price": 82843,
+            "name": "amet excepteur consequat dolor occaecat consectetur incididunt",
+            "id": "5453beee3fb8f27cbd149dd5"
+        },
+        {
+            "category": {
+                "children": [],
+                "name": "reprehenderit minim pariatur commodo",
+                "id": "544fb4632dedf7571409074b"
+            },
+            "image": {
+                "alt": "nisi ad dolor magna",
+                "thumb": "http://5to5admin:8888/img/works/img4.jpg",
+                "url": "http://5to5admin:8888/img/works/img4.jpg",
+                "id": "5453beeec62de5eedeb1091e"
+            },
+            "status": "Скрыт",
+            "createDate": "Fri Nov 05 2004 15:55:20 GMT+0000 (UTC)",
+            "oldPrice": 107731,
+            "price": 71821,
+            "name": "quis proident reprehenderit minim veniam",
+            "id": "5453beee2cbecec9aace4fab"
+        }
+    ]
+}
