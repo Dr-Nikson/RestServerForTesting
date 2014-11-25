@@ -175,6 +175,22 @@
         "method": "GET",
         "status": "200",
         "delay": "1400",
+        "mods": {
+            "ResultsOffsetMode": true
+        },
         "response": "json/products/all.json"
+    },
+    {
+        "url": "products/{hex}",
+        "method": "POST",
+        "status": "200",
+        "delay": "400"
+    },
+    {
+        "url": "products/{hex}",
+        "method": "GET",
+        "status": "200",
+        "delay": "700",
+        "response": "json/products/one.json"
     }
 ]

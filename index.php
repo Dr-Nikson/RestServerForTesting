@@ -2,6 +2,7 @@
 
 use mods\GetRandomFromArrayMode;
 use mods\RandomizeFieldMode;
+use mods\ResultsOffsetMode;
 use mods\UnsetField;
 
 require_once 'ClientException.php';
@@ -13,6 +14,7 @@ require_once 'mods/Mode.php';
 require_once 'mods/GetRandomFromArrayMode.php';
 require_once 'mods/RandomizeFieldMode.php';
 require_once 'mods/UnsetField.php';
+require_once 'mods/ResultsOffsetMode.php';
 
 
 try
@@ -25,7 +27,7 @@ try
     $routesData = json_decode(file_get_contents('routes.config.json'));
     $url = rtrim($_GET['customUrl'],'/');
     $router = new Router($routesData);
-    $modEngine = new ModEngine(array( new GetRandomFromArrayMode(), new RandomizeFieldMode(), new UnsetField() ));
+    $modEngine = new ModEngine(array( new GetRandomFromArrayMode(), new RandomizeFieldMode(), new UnsetField(), new ResultsOffsetMode() ));
     $route = $router->getMatchingRoute($url);
     $route = $modEngine->modernize($route);
     process($route);
