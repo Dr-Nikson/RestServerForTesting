@@ -35,13 +35,13 @@ try
 catch (ClientException $ce)
 {
     printResponse(printHeaderByName('400'), function () use (&$ce) {
-        print($ce->getMessage());
+        print(json_encode($ce->getMessage()));
     });
 }
 catch (Exception $e)
 {
     printResponse(printHeaderByName('500'), function () use (&$e) {
-            print($e->getMessage());
+            print(json_encode($e->getMessage()));
         });
 }
 

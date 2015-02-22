@@ -97,32 +97,46 @@
         "response": "json/imagesOne.json"
     },
     {
-        "url": "images/{id}",
+        "url": "images/{hex}",
         "method": "GET",
         "status": "200",
         "delay": "100",
         "response": "json/imagesOne.json"
     },
     {
-        "url": "images/{id}",
+        "url": "images/{hex}",
         "method": "POST",
         "status": "200",
         "delay": "500",
         "response": "json/imagesOne.json"
     },
     {
-        "url": "images/{id}",
+        "url": "images/{hex}",
         "method": "DELETE",
         "status": "200",
         "delay": "100",
         "response": "json/imagesDeleted.json"
     },
     {
-        "url": "images/{id}/crop/{str}",
+        "url": "images/{hex}/crop/{str}",
         "method": "POST",
         "status": "200",
         "delay": "1000",
-        "response": "json/imagesOne.json"
+        "response": "json/imagesOne2.json"
+    },
+    {
+        "url": "images/{hex}/cropAuto",
+        "method": "POST",
+        "status": "200",
+        "delay": "3000",
+        "response": "json/imagesOne3.json"
+    },
+    {
+        "url": "images/{hex}/refresh-thumb",
+        "method": "GET",
+        "status": "200",
+        "delay": "1000",
+        "response": "json/imagesOne3.json"
     },
     {
         "url": "categories",
@@ -181,6 +195,20 @@
         "response": "json/products/all.json"
     },
     {
+        "url": "products",
+        "method": "POST",
+        "status": "200",
+        "delay": "2400",
+        "mods": {
+            "RandomizeFieldMode": {
+                "min": 1,
+                "max": 190000,
+                "field": "id"
+            }
+        },
+        "response": "json/products/one.json"
+    },
+    {
         "url": "products/{hex}",
         "method": "POST",
         "status": "200",
@@ -192,5 +220,58 @@
         "status": "200",
         "delay": "700",
         "response": "json/products/one.json"
+    },
+    {
+        "url": "products/{hex}/copy",
+        "method": "GET",
+        "status": "200",
+        "delay": "1700",
+        "mods": {
+            "RandomizeFieldMode": {
+                "min": 1,
+                "max": 190000,
+                "field": "id"
+            }
+        },
+        "response": "json/products/one.json"
+    },
+
+
+    {
+        "url": "users",
+        "method": "GET",
+        "status": "200",
+        "delay": "100",
+        "mods": {
+            "ResultsOffsetMode": true
+        },
+        "response": "json/users/all.json"
+    },
+    {
+        "url": "users",
+        "method": "POST",
+        "status": "200",
+        "delay": "500",
+        "mods": {
+            "RandomizeFieldMode": {
+                "min": 1,
+                "max": 190000,
+                "field": "id"
+            }
+        },
+        "response": "json/users/one.json"
+    },
+    {
+        "url": "users/{hex}",
+        "method": "GET",
+        "status": "200",
+        "delay": "500",
+        "response": "json/users/one.json"
+    },
+    {
+        "url": "users/{hex}",
+        "method": "POST",
+        "status": "200",
+        "delay": "500"
     }
 ]
